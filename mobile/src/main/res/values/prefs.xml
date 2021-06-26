@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="prefs_key_inapp_review_dialog_counter" translatable="false">inapp_review_dialog_counter</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	app:cardBackgroundColor="@color/global_bg_front"
+	app:cardCornerRadius="@dimen/card_corner_radius"
+	app:cardElevation="@dimen/global_elevation_2">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/global_spacing_16"
+			android:textAppearance="@style/TextAppearance.Cookbook.Headline"
+			android:fontFamily="sans-serif-light"
+			android:text="@string/recipe_detail_intro_title" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="?attr/dividerHorizontal" />
+
+		<TextView
+			android:id="@+id/recipe_detail_intro_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/global_spacing_16"
+			android:textAppearance="@style/TextAppearance.Cookbook.Body1"
+			android:textColor="@color/global_text_secondary" />
+
+		<View
+			android:id="@+id/recipe_detail_intro_divider"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="?attr/dividerHorizontal" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/global_spacing_16"
+			android:gravity="center"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/recipe_detail_intro_time"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:textAppearance="@style/TextAppearance.Cookbook.Subhead"
+				android:background="@drawable/selector_clickable_item_bg"
+				app:drawableTopCompat="@drawable/ic_card_time" />
+
+			<TextView
+				android:id="@+id/recipe_detail_intro_servings"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:textAppearance="@style/TextAppearance.Cookbook.Subhead"
+				android:background="@drawable/selector_clickable_item_bg"
+				app:drawableTopCompat="@drawable/ic_card_servings" />
+
+			<TextView
+				android:id="@+id/recipe_detail_intro_calories"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:textAppearance="@style/TextAppearance.Cookbook.Subhead"
+				android:background="@drawable/selector_clickable_item_bg"
+				app:drawableTopCompat="@drawable/ic_card_calories" />
+
+		</LinearLayout>
+	</LinearLayout>
+</androidx.cardview.widget.CardView>

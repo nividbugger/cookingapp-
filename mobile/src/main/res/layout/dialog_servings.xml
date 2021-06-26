@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/global_keyline_16"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/dialog_servings_count"
+		android:layout_width="@dimen/global_spacing_72"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:gravity="center"
+		android:textAppearance="@style/TextAppearance.Cookbook.Display1"
+		android:maxLength="2"
+		android:hint="@string/dialog_servings_hint"
+		android:importantForAutofill="no" />
+
+</LinearLayout>

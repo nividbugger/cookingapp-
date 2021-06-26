@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name" translatable="false">Cookbook</string>
+	<string name="app_store_uri" translatable="false">https://play.google.com/store/apps/details?id=%1$s</string>
+	<string name="app_deep_link_host" translatable="false">robotemplates.com</string>
+	<string name="app_deep_link_path" translatable="false">/cookbook.*</string>
+	<string name="fcm_default_notification_channel_id" translatable="false">general</string>
+	<string name="fcm_default_notification_channel_title">General notifications</string>
+
+	<string name="navigation_header_title">Cookbook</string>
+
+	<string name="global_database_fail_toast">Wooops! Cannot read data from database</string>
+
+	<string name="title_recipe_detail">Recipe detail</string>
+	<string name="title_search">Search</string>
+
+	<string name="menu_navigation_all">All recipes</string>
+	<string name="menu_navigation_favorites">Favorites</string>
+	<string name="menu_recipe_detail_share">Share</string>
+	<string name="menu_recipe_detail_shopping_list">Send shopping list</string>
+	<string name="menu_recipe_detail_link">Open web link</string>
+	<string name="menu_rate">Rate</string>
+	<string name="menu_about">About</string>
+	<string name="menu_privacy_policy">Privacy policy</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_search_hint">Search recipes</string>
+
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+
+	<string name="placeholder_empty">No recipes found</string>
+	<string name="placeholder_offline">No Internet connection available</string>
+
+	<string name="dialog_about_title">About</string>
+	<string name="dialog_about_message"><![CDATA["People who love to eat are always the best people."<br />(Julia Child)<br /><br />Cookbook app made with love by <a href="https://robotemplates.com">Robo Templates</a>.]]></string>
+	<string name="dialog_servings_title">Servings</string>
+	<string name="dialog_servings_hint">#</string>
+
+	<string name="recipe_list_item_image_description">Recipe picture</string>
+
+	<string name="recipe_detail_intro_title">Intro</string>
+	<string name="recipe_detail_intro_time">%1$d min</string>
+	<string name="recipe_detail_intro_servings">{0,choice,1#{0} serving|1&lt;{0} servings}</string>
+	<string name="recipe_detail_intro_calories">%1$d kcal</string>
+	<string name="recipe_detail_intro_joules">%1$d kJ</string>
+	<string name="recipe_detail_intro_energy">Each 100g serving contains</string>
+	<string name="recipe_detail_ingredients_title">Ingredients</string>
+	<string name="recipe_detail_ingredients_title_recalculated">Ingredients (%1$d servings)</string>
+	<string name="recipe_detail_ingredients_clear">Clear</string>
+	<string name="recipe_detail_ingredients_recalculate">Recalculate</string>
+	<string name="recipe_detail_instruction_title">Instruction</string>
+	<string name="recipe_detail_share_subject">Recipe</string>
+	<string name="recipe_detail_shopping_list_subject">Shopping list</string>
+</resources>

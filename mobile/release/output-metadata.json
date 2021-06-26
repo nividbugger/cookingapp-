@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.robotemplates.cookbook",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 10800000,
+      "versionName": "1.8.0",
+      "outputFile": "com.robotemplates.cookbook-mobile-1.8.0-10800000-20210506-release.apk"
+    }
+  ]
+}
